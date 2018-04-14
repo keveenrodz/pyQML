@@ -8,7 +8,7 @@ Item {
 
     Rectangle {
         width: 2
-        height: id_root.height * 0.3
+        height: id_root.height * 0.4
         color: "black"
         anchors {
             horizontalCenter: id_root.horizontalCenter
@@ -18,5 +18,6 @@ Item {
     }
 
     rotation: 360/granularity * (value % granularity)
+    antialiasing: true
 
 }

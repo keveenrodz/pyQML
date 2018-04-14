@@ -13,7 +13,7 @@ Item {
             horizontalCenter: id_root.horizontalCenter
         }
         antialiasing: true
-        y: id_root.height * 0.05
+        //y: id_root.height * 0.05
     }
 
     rotation: 360/granularity * (value % granularity)

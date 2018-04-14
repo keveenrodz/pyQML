@@ -3,7 +3,7 @@ import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 
 ApplicationWindow {
-    flags: Qt.FramelessWindowHint //Dont show the menu bar
+    //flags: Qt.FramelessWindowHint //Dont show the menu bar
     visible: true
     title: qsTr("Clock")
     color: "transparent"
@@ -12,8 +12,7 @@ ApplicationWindow {
     id: clock
     width: parent.width
     height: parent.height
-}
-
+    }
 }
 
 

@@ -36,7 +36,7 @@ Item {
                 id: hourContainer
 
                 property int hour: index
-                height: id_plate.height/2
+                height: id_plate.height
                 transformOrigin: Item.bottom
                 rotation: index * 30
                 x: id_plate.width/2
